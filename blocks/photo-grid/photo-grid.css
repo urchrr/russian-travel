@@ -25,7 +25,6 @@
 
 @media screen and (max-width: 510px){
   .photo-grid{
-    margin-top: 64px;
     gap:12px;
     margin-bottom: 64px;
   }
