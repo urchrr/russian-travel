@@ -1,3 +1,23 @@
-.content__item{
-  transition: .4s ease-in-out;
+.content__item_width{
+  max-width: 1184px;
+  width:76.875%;
+}
+
+@media screen and (max-width: 1024px){
+  .content__item{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .content__item{
+    width: 94%;
+  }
+}
+
+
+@media screen and (max-width: 510px){
+  .content__item{
+    width: 90%;
+  }
 }
