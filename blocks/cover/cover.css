@@ -1,3 +1,23 @@
 .cover{
+  position: relative;
+  margin-bottom: 92px;
+  width: 100%;
+}
 
+@media screen and (max-width: 1024px){
+  .cover{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cover{
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .cover{
+    margin-bottom: 64px;
+  }
 }

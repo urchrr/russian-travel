@@ -1,0 +1,290 @@
+.page{
+  background-color: #2A2C2F;
+
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header{
+  display: inline-flex;
+}
+.header__image{
+
+}
+
+.header__lang-link{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.lead{
+
+}
+.lead__title{
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lead__subtitle{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.lead__image{
+  width: 100%;
+}
+.lead__caption{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.intro{
+
+}
+.intro__list{
+
+}
+.intro__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+}
+.intro__text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.intro__list{
+  list-style: none;
+  padding-left: 0;
+}
+.intro__list-item{
+  font-family: Inter;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.intro__list-item_font-weight_normal{
+  font-weight: 400;
+}
+
+.intro__list-item_font-weight_normal::before{
+  content: " ";
+}
+
+.photo-grid{
+  margin: auto;
+  width: calc(100% - 96px);
+  max-width: 1184px;
+  width: 100%;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+  /*grid-template-rows:repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr); */
+  gap: 16px;
+}
+
+.photo-grid__item{
+  width:calc((100%) / 4);
+  width: 100%;
+  min-height: 213px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+
+}
+
+.photo-grid__item_image_train{
+  background-image: url(../images/photo-grid-train.jpg);
+
+}
+.photo-grid__item_image_atharva-tulsi{
+  background-image: url(../images/photo-grid-atharva-tulsi.jpg);
+}
+
+.photo-grid__item_image_tuman{
+  background-image: url(../images/photo-grid-tuman.jpg);
+}
+
+.photo-grid__item_image_sochi{
+  background-image: url(../images/photo-grid-sochi.jpg);
+}
+
+
+
+.photo-grid__item_image_arisa{
+  background-image: url(../images/photo-grid-arisa.jpg);
+}
+
+
+
+.photo-grid__item_image_baikal{
+  background-image: url(../images/photo-grid-baikal.jpg);
+}
+
+
+
+.photo-grid__item_image_elbrus{
+  background-image: url(../images/photo-grid-elbrus.jpg);
+}
+
+
+
+.photo-grid__item_image_kondratiev{
+  background-image: url(../images/photo-grid-kondratiev.jpg);
+}
+
+
+
+.photo-grid__item_image_kamchatka-1{
+  background-image: url(../images/photo-grid-kamchatka-1.jpg);
+}
+
+
+
+.photo-grid__item_image_kamchatka-2{
+  background-image: url(../images/photo-grid-kamchatka-2.jpg);
+}
+
+
+
+.photo-grid__item_image_baikal-2{
+  background-image: url(../images/photo-grid-baikal-2.jpg);
+}
+
+
+
+.photo-grid__item_image_ergaki{
+  background-image: url(../images/photo-grid-ergaki.jpg);
+}
+
+
+.places{
+  max-width: 984px;
+}
+.place__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+}
+.place__paragraph{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.place__image{
+
+}
+.place__website{
+
+}
+
+.place__url-heading{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+  text-transform: uppercase;
+}
+
+.place__link{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.cover{
+
+}
+.cover__overlay{
+
+}
+
+.cover__background{
+
+}
+
+.cover__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cover__subtitle{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer{
+
+}
+.footer__link{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__copyright{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}

@@ -1,8 +1,18 @@
 .place__paragraph{
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+
   font-size: 18px;
-  line-height: 23px;
-  color: #FFFFFF;
+  line-height: 1.63;
+  margin:0 0 26px 0;
+}
+
+
+.place__paragraph:last-of-type{
+  margin: 0;
+}
+
+@media screen and (max-width: 768px){
+  .place__paragraph{
+    font-size: 16px;
+  }
+
 }
