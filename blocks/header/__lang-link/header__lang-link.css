@@ -3,13 +3,9 @@
   line-height: 1.17;
   text-align: right;
   text-decoration: none;
-  margin-right: 18px;
   transition: .2s ease-in-out;
 }
 
-.header__lang-link:last-of-type{
-  margin-right: 0px;
-}
 
 @media screen and (max-width: 420px){
  .header__lang-link{
