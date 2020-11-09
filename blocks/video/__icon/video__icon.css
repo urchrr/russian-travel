@@ -1,0 +1,15 @@
+.video__icon{
+  width: 41px;
+  height:41px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+
+}
+@media screen and (max-width: 768px){
+  .video__icon{
+    top: 24px;
+    left: 24px;
+  }
+}
