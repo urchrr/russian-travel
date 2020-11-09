@@ -1,0 +1,12 @@
+.comments__author-image{
+  height:98px;
+  border-radius: 50%;
+  margin-bottom: 42px;
+  order: 0;
+}
+
+@media screen and (max-width: 768px){
+  .comments__author-image{
+    margin-bottom: 16px;
+  }
+}
